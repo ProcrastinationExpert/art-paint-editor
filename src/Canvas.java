@@ -11,7 +11,7 @@ public class Canvas extends JPanel {
     // menyimpan seluruh garis dan titik
     private List<List<ColorPoint>> allPaths;
 
-    // untuk menggambar garis antar titik
+    // untuk menggambar garis antar titik / path saat ini
     private List<ColorPoint> currentPath;
 
     // warna titik
